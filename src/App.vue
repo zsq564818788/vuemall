@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2></h2>
           <main-tab-bar/>
     <router-view/>
   </div>
@@ -7,7 +8,7 @@
 
 
 <script>
-import MainTabBar from './components/comtent/mainTabBar/MainTabBar'
+import MainTabBar from 'components/comtent/mainTabBar/MainTabBar'
 export default {
   name: "App",
   components: {
