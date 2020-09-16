@@ -45,8 +45,9 @@ export default {
   position: fixed;
   width: 100%;
   left: 0;
-  bottom: 0;
-  box-shadow: 0 -5px 1px rgba(100,100,100,.1)
+  bottom: 13px;
+  box-shadow: 0 -5px 1px rgba(100,100,100,.1);
+  z-index: 9;
 }
 .tab-bar-item{
   flex: 1;
